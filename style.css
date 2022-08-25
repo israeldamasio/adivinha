@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+:root {
+   --cor-de-fundo: #2a2c2a;
+   --fonte: 'DynaPuff', cursive;
+}
+
+body {
+   background-color: var(--cor-de-fundo);
+}
+
+.titulo__pagina {
+   text-align: center;
+   font-family: var(--fonte);
+   color: black;
+   padding: 2em;
+}
+
+.adivinha {
+   background-color: var(--cor-de-fundo);
+   display: block;
+   
+}
+
+.container__entrada {
+   display: block;
+   margin: 1em auto;
+   width: 75px;
+   background-color: #2a2c2a;
+   color: black;
+   border-radius: 10px;
+   padding: 10px 35px;
+}
+.container__botao {
+   display: block;
+   margin: 1em auto;
+   border: 1px solid;
+   border-radius: 10px;
+   padding: 5px;
+   font-size: 20px;
+   font-family: var(--fonte);
+   width: 150px;
+   background-color: black;
+   color: #2a2c2a;
+}
