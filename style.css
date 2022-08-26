@@ -3,7 +3,6 @@
 * {
    margin: 0;
    padding: 0;
-   height: auto;
 }
 
 :root {
@@ -11,15 +10,17 @@
    --fonte: 'DynaPuff', cursive;
 }
 body {
-   border: 30px dashed black;
-   background: radial-gradient(white, rgb(234, 234, 141),black);
+   border: 10px dashed black;
+   border-radius: 200px;
+   background: radial-gradient(white , rgb(141, 211, 234) 65%,black 80%);
    background-repeat: no-repeat;
    text-align: center;
    font-family: var(--fonte);
    font-size: 15px;
 }
 .caixa_borda{
-   border: 30px dashed black;
+   border: 6px dashed black;
+   border-radius: 200px;
 }
 .titulo__pagina {
    text-align: center;
@@ -30,15 +31,19 @@ body {
 .entrada_chute{
    margin: 0 0 3em 0;
 }
+p {
+   min-height: 245px;
+}
 .container__entrada {
    display: block;
    margin: 1em auto;
-   width: auto;
+   width: 50px;
    background-color: lightslategrey;
    color: black;
    border-radius: 10px;
-   padding: 10px 35px;
    font-size: 20px;
+   padding-left: 20px;
+   
 }
 .container__botao {
    display: block;
@@ -48,7 +53,7 @@ body {
    padding: 5px;
    font-size: 20px;
    font-family: var(--fonte);
-   width: 150px;
+   width: 100px;
    background-color: black;
    color: lightgray;
 }

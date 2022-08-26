@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="style.css">
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
-</head>
-
-<body>
-   <div class="caixa_borda">
-      <h1 class="titulo__pagina">Qual NÚMERO<br>o computador pensou?</h1>
-      <p>Neste jogo você deve digitar um número de <bold>1 a 10</bold>, <br>após isso verificar se o número escolhido foi o mesmo pensado pelo computador!<br>Você quer tentar???<br>Boa sorte, você consegue!!!</p>
-      <section class="entrada_chute">
-         <input type="number" class="container__entrada"/>
-         <button class="container__botao">Verifica</button>
-      </section>
-   </div>
-</body>
-
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <div class="caixa_borda">
+      <div class="caixa_borda">
+      <div class="caixa_borda">
+         <h1 class="titulo__pagina">Qual NÚMERO<br>o computador pensou?</h1>
+         <p>Neste jogo você deve digitar<br><br>um número de 1 a 10,<br><br>após isso verificar se o número escolhido<br><br>foi o mesmo pensado pelo computador!<br><br>Quer tentar?<br><br>Vamos lá, você consegue!<br><br>Boa sorte!</p>
+         <section class="entrada_chute">
+            <input type="number" class="container__entrada"/>
+            <button class="container__botao">Verifica</button>
+         </section>
+      </div>
+      </div>
+      </div>
+   </body>
+</html>
 <script>
    var segredo = Math.round(Math.random() * 10);
 
@@ -29,9 +32,9 @@
 
    function verifica() {
       if(input.value == segredo) {
-      alert("Você ACERTOU!");
+      alert("Parabéns!!! Você está com sorte, o número pensado pelo computador foi " + segredo);
       } else {
-      alert("Você ERROU!!!!!!!!");
+      alert("Que pena, você ERROU! Faça outra tentativa!");
       }
       input.value = "";
       input.focus();
