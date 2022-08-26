@@ -12,8 +12,6 @@
 body {
    background-color: black;
    margin-bottom: 100px;
-   border: 10px dashed black;
-   border-radius: 200px;
    text-align: center;
    font-family: var(--fonte);
    font-size: 15px;
