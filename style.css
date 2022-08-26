@@ -24,7 +24,6 @@ body {
 .adivinha {
    background-color: var(--cor-de-fundo);
    display: block;
-   
 }
 
 .container__entrada {
