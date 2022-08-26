@@ -6,13 +6,13 @@
 }
 
 :root {
-   --cor-de-fundo: rgb(81, 80, 80);
+   --cor-de-fundo: rgb(81, 81, 80);
    --fonte: 'DynaPuff', cursive;
 }
 
 body {
    border: 10em dashed black;
-   background: radial-gradient(var(--cor-de-fundo), red);
+   background: radial-gradient(var(--cor-de-fundo), rgb(234, 234, 141));
    text-align: center;
    font-family: var(--fonte);
    font-size: 15px;
@@ -28,7 +28,7 @@ body {
 .container__entrada {
    display: block;
    margin: 1em auto;
-   width: 30px;
+   width: 10px;
    background-color: lightslategrey;
    color: black;
    border-radius: 10px;
