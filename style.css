@@ -12,6 +12,9 @@
 
 body {
    background-color: var(--cor-de-fundo);
+   text-align: center;
+   font-family: var(--fonte);
+   font-size: 12px;
 }
 
 .titulo__pagina {
