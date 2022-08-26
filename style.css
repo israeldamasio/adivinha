@@ -6,7 +6,7 @@
 }
 
 :root {
-   --cor-de-fundo: #2b2d2b;
+   --cor-de-fundo: rgb(81, 80, 80);
    --fonte: 'DynaPuff', cursive;
 }
 
@@ -20,20 +20,15 @@ body {
    color: black;
    padding: 2em;
 }
-
-.adivinha {
-   background-color: var(--cor-de-fundo);
-   display: block;
-}
-
 .container__entrada {
    display: block;
    margin: 1em auto;
-   width: 75px;
-   background-color: #2a2c2a;
+   width: 30px;
+   background-color: lightslategrey;
    color: black;
    border-radius: 10px;
    padding: 10px 35px;
+   font-size: 15px;
 }
 .container__botao {
    display: block;
@@ -45,5 +40,5 @@ body {
    font-family: var(--fonte);
    width: 150px;
    background-color: black;
-   color: #2a2c2a;
+   color: lightgray;
 }
