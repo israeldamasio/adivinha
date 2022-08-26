@@ -17,7 +17,7 @@ body {
    font-size: 15px;
 }
 .caixa_fundo{
-   background: radial-gradient(white , rgb(141, 211, 234) 55%,black 72%);
+   background: radial-gradient(white 5%, rgb(234, 233, 141) 35%,black 72%, black 80%);
    background-repeat: no-repeat;
 }
 .titulo__pagina {
