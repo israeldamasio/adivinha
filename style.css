@@ -19,25 +19,21 @@ body {
    font-size: 15px;
 }
 .caixa_fundo{
-   background: radial-gradient(white , rgb(141, 211, 234) 55%,black 75%);
+   background: radial-gradient(white , rgb(141, 211, 234) 55%,black 72%);
    background-repeat: no-repeat;
-}
-.caixa_borda1, .caixa_borda2, .caixa_borda3 {
-   border: 9px dashed black;
-   border-radius: 390px;
-   padding: 5px;
 }
 .titulo__pagina {
    text-align: center;
    font-family: var(--fonte);
    color: black;
-   padding: 2em;
+   padding-top: 2em;
+   padding-bottom: 1em ;
 }
 .entrada_chute{
-   margin: 0 0 3em 0;
+   padding-bottom: 2em;
 }
 p {
-   min-height: 180px;
+   min-height: 130px;
 }
 .container__entrada {
    display: block;
