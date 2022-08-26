@@ -11,10 +11,11 @@
 }
 
 body {
+   border: 10em dashed black;
    background-color: var(--cor-de-fundo);
    text-align: center;
    font-family: var(--fonte);
-   font-size: 12px;
+   font-size: 15px;
 }
 
 .titulo__pagina {
