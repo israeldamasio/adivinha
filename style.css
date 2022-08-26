@@ -9,16 +9,16 @@
    --cor-de-fundo: rgb(81, 81, 80);
    --fonte: 'DynaPuff', cursive;
 }
-
 body {
-   border: 10em dashed black;
-   background: radial-gradient(var(--cor-de-fundo), rgb(234, 234, 141));
+   border: 30px dashed black;
+   background: radial-gradient(var(--cor-de-fundo), rgb(234, 234, 141),black);
    text-align: center;
    font-family: var(--fonte);
    font-size: 15px;
-
 }
-
+.caixa_borda{
+   border: 30px dashed black;
+}
 .titulo__pagina {
    text-align: center;
    font-family: var(--fonte);
