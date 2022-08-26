@@ -12,10 +12,11 @@
 
 body {
    border: 10em dashed black;
-   background-color: var(--cor-de-fundo);
+   background: radial-gradient(var(--cor-de-fundo), red);
    text-align: center;
    font-family: var(--fonte);
    font-size: 15px;
+
 }
 
 .titulo__pagina {
