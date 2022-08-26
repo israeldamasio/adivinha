@@ -3,7 +3,7 @@
 * {
    margin: 0;
    padding: 0;
-   height: auto;
+   height: 100%;
 }
 
 :root {
@@ -33,12 +33,12 @@ body {
 .container__entrada {
    display: block;
    margin: 1em auto;
-   width: 10px;
+   width: auto;
    background-color: lightslategrey;
    color: black;
    border-radius: 10px;
    padding: 10px 35px;
-   font-size: 15px;
+   font-size: 20px;
 }
 .container__botao {
    display: block;
