@@ -11,7 +11,8 @@
 }
 body {
    border: 30px dashed black;
-   background: radial-gradient(var(--cor-de-fundo), rgb(234, 234, 141),black);
+   background: radial-gradient(white, rgb(234, 234, 141),black);
+   background-repeat: no-repeat;
    text-align: center;
    font-family: var(--fonte);
    font-size: 15px;
