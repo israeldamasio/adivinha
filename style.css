@@ -6,53 +6,104 @@
 }
 
 :root {
-   --cor-de-fundo: rgb(81, 81, 80);
+   --cor-da-fonte: black;
    --fonte: 'DynaPuff', cursive;
 }
 body {
-   background-color: black;
+   background-image: url(https://vernalhapereira.com.br/wp-content/uploads/2020/12/O-futuro-do-mercado-dos-jogos-de-azar-no-Brasil-apostas-esportivas-loterias-estaduais-e-cassinos-scaled.jpg);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-color: rgba(88, 88, 88, 0.545);
    margin-bottom: 100px;
    text-align: center;
    font-family: var(--fonte);
    font-size: 15px;
+   overflow: hidden;
 }
-.caixa_fundo{
-   background: radial-gradient(white 5%, rgb(234, 233, 141) 35%,black 72%, black 80%);
-   background-repeat: no-repeat;
+.caixa__jogo{
+   display: inline-block;
+   align-content: center;
+   margin-top: 70px;
+   max-width: 400px;
+   border-radius: 25px;
+   padding: 20px;
+   background: rgba(254, 254, 254, 0.35);
 }
-.titulo__pagina {
+.titulo {
    text-align: center;
    font-family: var(--fonte);
-   color: black;
-   padding-top: 2em;
-   padding-bottom: 1em ;
-}
-.entrada_chute{
-   padding-bottom: 2em;
+   font-size: 48px;
+   color: var(--cor-da-fonte);
+   padding: 20px 0px;
 }
 p {
-   min-height: 130px;
+   color: var(--cor-da-fonte);
+   font-size: 16px;
+   margin: 15px 0px;
+}
+p bold {
+   font-size: 20px;
+}
+.entrada__chute{
+   padding-bottom: 20px;
 }
 .container__entrada {
-   display: block;
-   margin: 1em auto;
-   width: 50px;
-   background-color: lightslategrey;
-   color: black;
-   border-radius: 10px;
-   font-size: 20px;
+   display: inline-block;
+   margin: 10px auto;
+   width: 310px;
+   padding: 5px;
+   background: rgba(254, 254, 254, 0.3);
+   border-radius: 7px;
+   font-size: 25px;
+   font-weight: bolder;
    text-align: center;
-   
+   color: var(--cor-da-fonte);
+   border: none;
+}
+   input[type="number"]::-webkit-outer-spin-button,
+   input[type="number"]::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+   }
+   input[type="number"] {
+      -moz-appearance: textfield;
+   }
+   div {
+      color: var(--cor-da-fonte);
+      font-size: 20px;
+    }
+    input:invalid + span::after {
+      content: "✖";
+      padding-left: 10px;
+    }
+    input:valid + span::after {
+      content: "✓";
+      padding-left: 10px;
+    }
+
+.container__entrada:focus{
+   background: rgba(254, 254, 254, 0.45);
+   box-shadow: 0 0 0 0;
+   outline: 0;
 }
 .container__botao {
    display: block;
-   margin: 1em auto;
-   border: 1px solid;
-   border-radius: 10px;
+   margin: 10px auto;
+   border-radius: 7px;
    padding: 5px;
-   font-size: 20px;
+   font-size: 25px;
    font-family: var(--fonte);
-   width: 100px;
-   background-color: black;
-   color: lightgray;
+   width: 350px;
+   background: rgba(254, 254, 254, 0.3);
+   color: var(--cor-da-fonte);
+   border: none;
+}
+.container__botao:hover{
+   background: rgba(254, 254, 254, 0.45);
+}
+.container__botao:focus{
+   background: rgba(254, 254, 254, 0.4);
+   box-shadow: 0 0 0 0;
+   outline: none;
+   border: none;
 }

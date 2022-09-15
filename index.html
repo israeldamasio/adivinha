@@ -10,20 +10,24 @@
       <link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
    </head>
    <body>
-      <div class="caixa_fundo">
-      <div class="caixa_borda1">
-      <div class="caixa_borda2">
-      <div class="caixa_borda3">
-         <h1 class="titulo__pagina">Qual o<br>NÚMERO<br>pensado<br>pela máquina?</h1>
-         <p>Neste jogo você deve digitar<br>um número de 1 a 10,<br>após isso verificar se o número escolhido<br>foi o mesmo pensado pelo computador!<br>Quer tentar?<br>Vamos lá, você consegue!<br>Boa sorte!</p>
-         <section class="entrada_chute">
-            <input type="number" size="2" maxlength="2" class="container__entrada"/>
+      <section class="caixa__jogo">
+         <h1 class="titulo">ADIVINHA</h1>
+         <p>Neste jogo você entra <br> com um número de <bold>1 a 10</bold>,<br> depois é só clicar no botão <bold>verifica</bold><br> para ver se o número digitado é o mesmo escolhido pelo computador!<br>Quer tentar?<br> <bold>Boa sorte!</bold>
+         <section class="entrada__chute">
+            <div id="input__numero">
+               <input
+                  type="number" 
+                  class="container__entrada" 
+                  min="1" 
+                  max="10" 
+                  step="1" 
+                  placeholder="00" 
+                  required />
+                  <span class="validity"></span>
+               </div>
             <button class="container__botao">Verifica</button>
          </section>
-      </div>
-      </div>
-      </div>
-      </div>
+      </section>
    </body>
 </html>
 <script>
@@ -41,6 +45,13 @@
       input.value = "";
       input.focus();
    }
+
+   document.addEventListener("keypress", function(e){
+      if(e.key === 'Enter'){
+         var button = document.querySelector("button");
+         button.click();
+      }
+   });
 
    var button = document.querySelector("button");
 
