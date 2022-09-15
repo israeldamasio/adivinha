@@ -22,7 +22,7 @@
                   max="10" 
                   step="1" 
                   placeholder="00"
-                  autofocus />
+                  required />
                   <span class="validity"></span>
                </div>
             <button class="container__botao">Verifica</button>
@@ -44,7 +44,7 @@
       alert("Que pena, você ERROU! Faça outra tentativa!");
       }
       input.value = "";
-      input.focus();
+      input.autofocus();
    }
 
    document.addEventListener("keypress", function(e){
