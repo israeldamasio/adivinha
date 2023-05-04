@@ -22,7 +22,7 @@ body {
    height: 100vh;
 }
 .caixa__jogo{
-   display: inline-block;
+   display: flex;
    align-content: center;
    margin-top: 70px;
    max-width: 400px;
