@@ -19,6 +19,7 @@ body {
    font-family: var(--fonte);
    font-size: 15px;
    overflow: hidden;
+   max-height: 100vh;
 }
 .caixa__jogo{
    display: inline-block;
